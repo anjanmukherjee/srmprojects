@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-nav
+            {
+                float:right;
+                 margin: 0px;
+            }
+            .navbar-brand{
+                float: left;
+                height: 50px;
+                padding: 4px 15px;
+                font-size: 18px;
+                line-height: 20px;
+            }
+            
+            .navbar-nav li
+            {
+                 background:white !important;
+                 padding:1px;
+            }
+            .navbar-nav li a
+            {
+                background:white !important;
+                margin:1px 3px;
+                padding-top:12px;
+                padding-bottom:12px;
+            }
+            .navbar-nav.special li:last-child a
+            {
+                background-color:#6DB7ED !important;
+                color:white !important;
+                text-decoration: wavy;
+            }
+			
+			.navbar
+            {
+                margin:0;
+            }
+            
+            
+            
+            .screen-image
+            {
+                background: url('http://healthnutsmedia.com/wp-content/uploads/2013/08/Chatter-background-white-HNM-blue-gradient-blue-gear.png') #e1e1e1;
+               
+                
+                width:100%;
+               
+                
+                margin:0 auto;
+            }
+            .head-1 h1
+            {
+                font-weight:500;
+                font-size:2.1em;
+                
+                padding:0 30px;
+            }
+            .head-1 h3
+            {
+                font-weight:600;
+                
+                color:#9e9e9e;
+                padding:0 30px;
+            }
+            .find-int-butt {
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: 1.6em;
+    background-color:#156CCC;
+    color: white;
+    border-radius: 3px;
+}
+
+ .cont-footer
+            {
+               
+                margin-left: auto;
+                margin-right: auto;
+            }
+			
+			element.style {
+    color: black;
+    margin: 0;
+    padding: 10px;
+}
+.copyright p {
+    color: #dadada;
+    margin-top: 12px;
+}
+
+.copyright {
+    height: auto;
+    min-height: 50px;
+    padding: 0 0;
+    color: black !important;
+    background: #dbdcdb;
+}
+
+
+.social-icons li a, a.social-icon {
+    width: 28px;
+    height: 28px;
+    display: block;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}.footer a {
+    color: #262626;
+}
+.footer p, .footer a {
+    font-size: 14px;
+}
+.social_googleplus {
+    background: url(../img/icons/social/googleplus.png) no-repeat;
+}
+
+.footer a, .footer a:hover, .copyright a:hover {
+    color:#06F;
+}
+.margin-left{
+    margin-left: 80px  !important;
+}
+
+
+
+.test
+
+{
+	padding-left:300px;
+}
+
+
+
+@media (max-width: 978px) {
+    .test {
+      padding:0;
+      margin:0;
+    }
+	
+	.mod
+	{
+		margin:auto;
+		padding-left:500px;
+	}
+	
+	.res {
+    font-size: 3vw;
+}
